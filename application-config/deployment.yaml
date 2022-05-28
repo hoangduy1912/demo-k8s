@@ -4,6 +4,7 @@ metadata:
   name: hello-cloudbuild
   labels:
     app: hello-cloudbuild
+  namespace: cloudbuild-ns
 spec:
   replicas: 1
   selector:
