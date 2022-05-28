@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Deployment
+metadata:
+  name: hello-cloudbuild
+  labels:
+    app: hello-cloudbuild
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hello-cloudbuild
+  template:
+    metadata:
+      labels:
+        app: hello-cloudbuild
+    spec:
+      containers:
+        - name: hello-cloudbuild
+          image: asia-southeast1-docker.pkg.dev/duy-k8s/cicd-registry/cicd-app:v1
+          ports:
+            - containerPort: 8080
