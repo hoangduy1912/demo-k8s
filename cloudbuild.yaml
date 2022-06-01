@@ -8,5 +8,5 @@ steps:
     - '-f'
     - './application-config'
     env:
-    - 'CLOUDSDK_CONTAINER_CLUSTER=my-first-cluster-1'
+    - 'CLOUDSDK_CONTAINER_CLUSTER=duy-cluster-01'
     - 'CLOUDSDK_COMPUTE_ZONE=asia-southeast1-a'
