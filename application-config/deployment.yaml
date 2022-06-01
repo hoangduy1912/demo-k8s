@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
         - name: hello-app
-          image: asia-southeast1-docker.pkg.dev/duy-k8s/cicd-registry/cicd-app:v1
+          image: asia-southeast1-docker.pkg.dev/duy-k8s/cicd-registry/cicd-app:v2
           ports:
             - containerPort: 8080
