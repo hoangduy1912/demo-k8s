@@ -7,7 +7,7 @@ spec:
   project: cicd-project
   source:
     repoURL: https://github.com/hoangduy1912/demo-k8s.git
-    targetRevision: HEAD
+    targetRevision: main
     path: application-config
   destination:
     server: https://kubernetes.default.svc
